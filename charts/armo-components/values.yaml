@@ -186,7 +186,9 @@ armoWebsocket:
        memory: 300Mi
 
 
-  env: {}
+  env: 
+  - name: SCAN_TRIGGER_ON_NEW_IMAGE
+    value: "disable" 
 
   labels: {}
 
